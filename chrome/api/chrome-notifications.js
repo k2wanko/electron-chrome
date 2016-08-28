@@ -2,7 +2,7 @@ const {
   makeEvent,
 } = require('../main/global.js');
 
-const notifier = require('./electron-notifications')
+const notifier = require('electron-notifications')
 
 var openNotifications = {};
 
